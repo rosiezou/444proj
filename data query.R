@@ -1,2 +1,2 @@
-library('Quandl')
-data <- Quandl.datatable('SHARADAR-SF1-2')
+data <- read.csv("SHARADAR-SF1-2.csv", header = TRUE)
+data <- na.omit(data)
